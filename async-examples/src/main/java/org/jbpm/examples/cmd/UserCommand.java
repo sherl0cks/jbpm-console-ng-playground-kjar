@@ -16,14 +16,14 @@
 
 package org.jbpm.examples.cmd;
 
+
+import org.jbpm.examples.data.User;
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.internal.executor.api.Command;
 import org.kie.internal.executor.api.CommandContext;
 import org.kie.internal.executor.api.ExecutionResults;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import org.jbpm.examples.data.User;
 
 
 public class UserCommand implements Command{
